@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  height: 100%;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background-color: #3367d6;
+}
+.symbol {
+  height: 90px;
+  width: 180px;
+}
+.top-inner {
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  background-color: #64748b;
+}
+.search-box {
+  height: 30px;
+  width: 350px;
+  background-color: #64748b;
+  margin: 10px;
+}
+.main-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  margin: 30px;
+}
+.no-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.res-con {
+  background-color: white;
+}
